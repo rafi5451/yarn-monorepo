@@ -1,0 +1,14 @@
+{
+  "private": "true",
+  "name": "example-app",
+  "version": "1.0.0",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "ios:ios": "yarn workspace @example-app/mobile ios --simulator='iPhone 14 Pro'",
+    "ios:start": "yarn workspace @example-app/mobile start",
+    "web:start": "yarn workspace @example-app/web start"
+  }
+}
