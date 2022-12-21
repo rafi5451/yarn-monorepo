@@ -17,7 +17,7 @@ const App = () => {
     <View style={styles.container}>
       <TouchableOpacity
         onPress={() => {
-          console.log(add(1, 2));
+          console.log(add(7, 2));
         }}>
         <Text style={styles.buttonTitle}>Run Add function</Text>
       </TouchableOpacity>
