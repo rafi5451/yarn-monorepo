@@ -7,8 +7,8 @@
     "packages/*"
   ],
   "scripts": {
-    "ios:ios": "yarn workspace @example-app/mobile ios --simulator='iPhone 14 Pro'",
-    "ios:start": "yarn workspace @example-app/mobile start",
+    "mobile:ios": "yarn workspace @example-app/mobile ios --simulator='iPhone 14 Pro' & yarn workspace @example-app/mobile start",
+    "mobile:start": "yarn workspace @example-app/mobile start",
     "web:start": "yarn workspace @example-app/web start"
   }
 }
