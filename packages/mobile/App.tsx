@@ -8,9 +8,9 @@
  * @format
  */
 
-import {add, TestComponent} from '@example-app/shared';
+import { add } from 'shared-lib';
 import React from 'react';
-import {StyleSheet, Text, TouchableOpacity, View} from 'react-native';
+import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 const App = () => {
   return (
@@ -21,7 +21,6 @@ const App = () => {
         }}>
         <Text style={styles.buttonTitle}>Run Add function</Text>
       </TouchableOpacity>
-      <TestComponent />
     </View>
   );
 };

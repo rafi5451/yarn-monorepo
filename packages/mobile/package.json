@@ -10,9 +10,9 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
-    "@example-app/shared": "1.0.0",
     "react": "18.0.0",
-    "react-native": "0.69.1"
+    "react-native": "0.69.1",
+    "shared-lib": "1.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",

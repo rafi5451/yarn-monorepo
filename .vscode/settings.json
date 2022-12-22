@@ -1,0 +1,29 @@
+{
+  "editor.formatOnSave": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "typescript.preferences.quoteStyle": "single",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "typescript.referencesCodeLens.enabled": true,
+  "typescript.implementationsCodeLens.enabled": true,
+  "eslint.alwaysShowStatus": true,
+  "files.eol": "\n",
+  "cSpell.words": [],
+  "typescript.preferences.importModuleSpecifier": "non-relative"
+}
